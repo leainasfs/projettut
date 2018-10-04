@@ -43,3 +43,18 @@ div {
 .intro {
 	padding: 1em;
 }
+
+.nom {
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.liens {
+	font-size: 15pt;
+	font-weight: bold;
+}
+
+.bas {
+	display: block;
+	padding: 0;
+}
