@@ -1,12 +1,45 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	font-size: 11pt;
+	color: white;
+	background-color: black;
 }
 
 header {
 	font-weight: bolder;
-	font-size: 24pt;
+	font-size: 10pt;
 }
 
 h1 {
-	font-size: 20pt;
+	font-size: 18pt;
+}
+
+a {
+	color: #ffb6c1;
+	text-decoration: none;
+	font-style: italic;
+}
+
+img {
+	width: 639px;
+	height: 639px;
+	max-height: 13em;
+	max-width: 13em;
+	position: relative;
+
+
+}
+
+div {
+	display: inline-block;
+	padding: 5em;
+}
+
+#retour {
+	color: grey;
+	font-style: bolder;
+}
+
+.intro {
+	padding: 1em;
 }
