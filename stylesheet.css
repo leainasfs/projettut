@@ -1,17 +1,47 @@
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 11pt;
 	color: white;
-	background-color: black;
+	background-color: #000000;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+p {
+	padding-left: 4%;
+	padding-right: 4%;
 }
 
 header {
 	font-weight: bolder;
 	font-size: 10pt;
+	padding: 0;
 }
 
 h1 {
 	font-size: 18pt;
+	padding: 1%;
+}
+
+h1, h2 {
+	font-family: 'Poppins', sans-serif;
+	color:#197882;
+}
+
+h3 /*les noms des app concurrentes dans art.html*/{
+	font-family: 'Poppins', sans-serif;
+	color:#777777;
+
+}
+
+h5 /*SafeRUn en gros*/{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 100pt;
+	text-align: center;
+	position: relative;
+	left: 50%;
+
 }
 
 a {
@@ -20,7 +50,7 @@ a {
 	font-style: italic;
 }
 
-img {
+.profil {
 	width: 639px;
 	height: 639px;
 	max-height: 13em;
@@ -32,7 +62,7 @@ img {
 
 div {
 	display: inline-block;
-	padding: 5em;
+	padding: 4em;
 }
 
 #retour {
@@ -40,7 +70,7 @@ div {
 	font-style: bolder;
 }
 
-.intro {
+.doudou {
 	padding: 1em;
 }
 
@@ -58,3 +88,10 @@ div {
 	display: block;
 	padding: 0;
 }
+
+.entete {
+	background-image: url(run.jpg);
+	padding: 0;
+
+}
+
