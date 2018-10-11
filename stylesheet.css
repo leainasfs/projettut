@@ -30,8 +30,14 @@ h1, h2 {
 
 h3 /*les noms des app concurrentes dans art.html*/{
 	font-family: 'Poppins', sans-serif;
-	color:#777777;
+	color:#777777;	
+	font-size: 15pt;
 
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	color:#197882;
 }
 
 h5 /*SafeRUn en gros*/{
