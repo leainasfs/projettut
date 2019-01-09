@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FICHE TUTO Splashscreen</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+</head>
+<header>
+	<a href="index.html" id="retour">Retour en arrière</a>
+</header>
+<body>
+	<h1>Comment personnaliser son Launchscreen / Splashscreen sur Xcode 10.</h1>
+
+	<h2>Ouvrez votre projet Xcode.</h2>
+
+	<h2>Rendez vous dans la partie Info de la base du projet.</h2>
+	<p>Vérifiez que l'interface de Launchscreen est bien attribuée au storyboard "LauchScreen".</p>
+	<img src="fichetuto/a.png" class="capturefull">
+
+	<h2>Téléchargez un launchscreen.</h2>
+	<p>Vérifiez que vous savez où l'image utilisée se trouve.</p>
+	<img src="fichetuto/b.png" class="capturefull">
+
+	<h2>Ajoutez l'image à votre projet.</h2>
+	<p>Allez dans Files, puis Add files to "projet", et ajouter votre image.</p>
+	<img src="fichetuto/c.png" class="capturefull">
+	<img src="fichetuto/d.png" class="capturefull">
+
+	<h2>Ajouter l'image dans la vue du storyboard Launchscreen.</h2>
+	<p>Allez dans le fichier "LaunchScreen.storyboard" de votre projet. Dans le menu des objets, rechercher "image view". Sélectionnez la vue principale de votre View Controller, et glissez-déposez l'image view sur l'écran simulé.</p>
+	<img src="fichetuto/e.png" class="capturefull">
+
+	<h2>Affecter la bonne image à votre Vue.</h2>
+	<p>Sélectionnez l'image view que vous venez de créer, et sélectionner votre image comme indiqué sur l'écran.</p>
+	<img src="fichetuto/f.png" class="capturefull">
+
+	<h2>Faire apparaitre l'image.</h2>
+	<p>L'image devrait alors apparaitre sur votre simulation. Si celle ci n'apparait pas, glissez-déposez là sur votre vue.</p>
+	<img src="fichetuto/g.png" class="capturefull">
+
+	<h2>Testez votre Build avec le simulateur.</h2>
+	<p>Build votre application, et vérifiez que l'image apparait correctement sur votre simulateur.</p>
+	<img src="fichetuto/h.png" class="capturefull">
+
+	<h2>Voilà ! Vous savez désormais comment personnaliser votre Splashscreen sur Xcode 10.</h2>
+
+
+</body>
+</html>

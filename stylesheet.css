@@ -105,3 +105,17 @@ div {
 	width:  25%;
 
 }
+
+.partenaires {
+	height: 3em;
+	padding-right: 9%;
+}
+
+.icone {
+	position: absolute;
+	left: 1100px;
+}
+
+.capturefull {
+	max-width: 80%;
+}
