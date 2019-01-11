@@ -119,3 +119,8 @@ div {
 .capturefull {
 	max-width: 80%;
 }
+
+.photo {
+	max-width: 20%;
+	display: inline-block;
+}
